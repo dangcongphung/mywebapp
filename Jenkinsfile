@@ -9,7 +9,7 @@ pipeline {
                 echo 'building the application'
                 
                 script {
-                    def test = 2 + 2 > 3 ? "right' : 'wrong'
+                    def test = 2 + 2 > 3 ? 'right' : 'wrong'
                     echo test
                 }
             }
