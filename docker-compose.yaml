@@ -5,7 +5,7 @@ services:
     ports:
       - 3000:3000
   mongodb:
-    image: mongo
+    image: mongo 
     ports:
       - 27017:27017
     environment:
